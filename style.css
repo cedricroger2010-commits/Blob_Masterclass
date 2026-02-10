@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 192, 192);
+}
+ 
+.main-content {
+    margin-left: 240px;
+    padding: 20px;
+}
+ 
+.WelcomeTitle {
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+p {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(88, 88, 88);
+    padding: 20px;
+}
+ 
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.sidebar a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+ 
+.sidebar a:hover {
+    background-color: #818181;
+    border-radius: 5px;
+}
+ 
+.welcome-section {
+    text-align: center;
+    font-family: "Luckiest Guy", cursive;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    color: #333;
+}
+ 
+.welcome-section h2 {
+    font-size: 36px;
+    color: #7a00d1;
+    text-transform: uppercase;
+}
+ 
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+ 
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+    border-top: 5px solid #7a00d1;
+}
+ 
+.feature-card h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+}
+ 
+.cta-area {
+    text-align: center;
+    margin-top: 40px;
+}
+ 
+.cta-area {
+    text-align: center;
+    margin-top: 40px;
+}
+ 
+.cta-area2 {
+    text-align: center;
+    margin-top: 40px;
+}
+ 
+.start-button {
+    background: #7a00d1;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: transform 0.2s, background 0.2s;
+    display: inline-block;
+}
+ 
+.start-button:hover {
+    background: #5e00a1;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(122, 0, 209, 0.4);
+}
+ 
+ 
+.feature-card.highlight {
+    border-top: 8px solid #ffd700;
+    background: linear-gradient(180deg, #ffffff, #fffcf0);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+}
+ 
+.feature-card.highlight h3 {
+    color: #b8860b;
+}
+ 
+.feature-card.highlight strong {
+    font-size: 1.2em;
+    color: #000;
+}
+ 
+.pricing-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+ 
+.pricing-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    transition: 0.3s;
+}
+ 
+.pricing-card.highlighted {
+    border: 2px solid #5a189a;
+    transform: scale(1.05);
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+ 
+.tag {
+    background: #5a189a;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 200px;
+    left: 56%;
+    transform: translateX(-50%);
+}
+ 
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+ 
+.price span {
+    font-size: 18px;
+    color: #777;
+}
+ 
+.features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+    text-align: left;
+}
+ 
+.features li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+ 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #5a189a;
+    color: #5a189a;
+    border-radius: 5px;
+}
+ 
+.btn-main {
+    background: #5a189a;
+    color: #fff;
+}
